@@ -7,4 +7,6 @@ npm install -g redoc-cli
 
 redoc-cli bundle dist/openapi.yaml
 
-copy output to index.html and push it to origing/master which should publish to docs.roadster.com
+mv redoc-static.html ../docs/index.html
+
+push it to origing/master which should automatically appear at https://docs.roadster.com
