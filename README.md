@@ -9,4 +9,4 @@ redoc-cli bundle dist/openapi.yaml
 
 mv redoc-static.html ../docs/index.html
 
-push it to origing/master which should automatically appear at https://docs.roadster.com
+git push to origin/master which should automatically appear at https://docs.roadster.com
